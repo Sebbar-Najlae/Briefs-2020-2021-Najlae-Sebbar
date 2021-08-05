@@ -1,0 +1,53 @@
+/* html{
+    background-image: url("bg.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+#afficheur{
+    width: 309px;
+    height: 100px;
+    font-size: 40px;
+    color: #857776;
+    /* color: #025949; */
+} 
+#C{
+    background-color: #F25C54;
+    color: snow;
+}
+#op1{
+    background-color: #a3bf50;
+    /* background-color:rgb(252, 252, 252); */
+    color: #4BA67B;
+
+}
+#op{
+    background-color: #F4845F;
+    /* background-color: #4BA67B; */
+
+}
+
+td button{
+    width:100%;
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    background-color:#F7B267 ;
+   /* background-color:  #8EBFA8; */
+    color: snow;
+}
+.yassin{
+    display:flex;
+ align-items: center;
+ justify-content: center;
+ height: 97vh;
+ 
+}
+
+table{
+    border: 24px solid #F79D65;
+    /* border: 24px solid #025949; */
+    background-color: antiquewhite;
+    /* background-color: #025949; */
+}
+

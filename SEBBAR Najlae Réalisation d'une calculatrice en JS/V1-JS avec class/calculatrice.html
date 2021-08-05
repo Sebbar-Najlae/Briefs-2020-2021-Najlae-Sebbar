@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html> 
+   <head> 
+      <script src="CalculatriceBLO.js"></script> 
+    <script src="calculatrice.js"></script> 
+    
+    <link rel="stylesheet" href="calculatrice.css">
+   </head> 
+   <body> 
+       <div class="yassin">
+      <table border="24"> 
+         <tr> 
+            <td colspan="3"><input id="afficheur"/></td> 
+            <td><button id="C" onclick="Init()">c</button></td> 
+         </tr> 
+         <tr> 
+            <td><button onclick="ClickNumber('1')">1</button></td> 
+            <td><button onclick="ClickNumber('2')">2</button></td> 
+            <td><button onclick="ClickNumber('3')">3</button></td> 
+            <td><button id="op" onclick="Operation('+')">+</button></td> 
+         </tr> 
+         <tr> 
+            <td><button onclick="ClickNumber('4')">4</button></td> 
+            <td><button onclick="ClickNumber('5')">5</button></td> 
+            <td><button onclick="ClickNumber('6')">6</button></td> 
+            <td><button id="op" onclick="Operation('-')">-</button></td> 
+         </tr> 
+         <tr> 
+            <td><button onclick="ClickNumber('7')">7</button></td> 
+            <td><button onclick="ClickNumber('8')">8</button></td> 
+            <td><button onclick="ClickNumber('9')">9</button></td> 
+            <td><button id="op" onclick="Operation('*')">*</button></td> 
+         </tr> 
+         <tr>
+            <td><button id="op" onclick="ClickNumber('.')">.</button></td> 
+            <td><button onclick="ClickNumber('0')">0</button></td> 
+            <td><button id="op1" onclick="Egale()">=</button></td> 
+            <td><button id="op" onclick="Operation('/')">/</button></td> 
+         </tr> 
+      </table> 
+    </div>
+
+    <div class="circle"></div>
+   </body> 
+</html>
